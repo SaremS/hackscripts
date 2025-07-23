@@ -1,4 +1,4 @@
-# Feedback Flux
+# Feedback Flux (Easy)
 Solves [https://app.hackthebox.com/challenges/Feedback Flux](https://app.hackthebox.com/challenges/Feedback%20Flux)
 
 ## Exploit 

@@ -1,4 +1,4 @@
-# The Magic Informer (Easy)
+# Neo Vault (Very Easy)
 Solves [https://app.hackthebox.com/challenges/NeoVault](https://app.hackthebox.com/challenges/NeoVault)
 
 ## Exploit 

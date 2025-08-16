@@ -50,10 +50,8 @@ Transfer-Encoding: chunked`+"\r\n\r\n{{printf \"%X\" .Length}}\r\nsearch={{.Quer
 
 	for {
 		for _, char := range chars {
-			query := "6'+AND+gamedesc+LIKE+'" + result + string(char) + "%' ESCAPE '\\"
-			query = strings.ReplaceAll(query, "_", "\\_")
+			query := "6'+AND+gamedesc+GLOB+'" + result + string(char) + "*"
 
-			//fmt.Printf("%s\n", query)
 			length := len(query)
 
 			data := RequestData {

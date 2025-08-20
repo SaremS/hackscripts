@@ -12,6 +12,12 @@ import (
 	"strings"
 )
 
+type ResponseData struct {
+
+}
+
+func sendPayload(targetUrl string, payload string)
+
 func main() {
 	target_url := flag.String("target_url", "", "Target url for Feedback Flux")
 	bin_url := flag.String("bin_url", "", "Bin URL to POST flag to")
